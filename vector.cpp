@@ -35,9 +35,30 @@ void inputVectorManually()
     cout << vc.size() << endl;
 }
 
+void accessVectorUsingIterator()
+{
+    vector<int> vc = {10, 20, 30, 40, 50};
+
+    vector<int>::iterator it;
+    for (it = vc.begin(); it != vc.end(); it++)
+    {
+        cout << *it << endl;
+    }
+}
+
+void accessVectorUsingForEachLoop() //Most Perferable
+{
+    vector<int> v = {1, 2, 30, 40, 50};
+    for (int u : v)
+    {
+        cout << u << " " << endl;
+    }
+}
 int main()
 {
-    inputInVectors();
-    inputVectorManually();
+    // inputInVectors();
+    // inputVectorManually();
+    // accessVectorUsingIterator();
+    accessVectorUsingForEachLoop();
     return 0;
 }
