@@ -37,7 +37,7 @@ void inputVectorManually()
 
 int main()
 {
-    // inputInVectors();
+    inputInVectors();
     inputVectorManually();
     return 0;
 }
