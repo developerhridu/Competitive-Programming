@@ -56,9 +56,9 @@ void accessVectorUsingForEachLoop() //Most Perferable
 }
 int main()
 {
-    // inputInVectors();
-    // inputVectorManually();
-    // accessVectorUsingIterator();
+    inputInVectors();
+    inputVectorManually();
+    accessVectorUsingIterator();
     accessVectorUsingForEachLoop();
     return 0;
 }
