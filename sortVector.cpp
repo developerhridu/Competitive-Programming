@@ -4,7 +4,17 @@ using namespace std;
 void sortVector()
 {
     vector<int> v = {5, 4, 9, 10, -4, 3, 100};
+
+    //Sort Smaller to Greater
     sort(v.begin(), v.end());
+    for (auto u : v)
+    {
+        cout << u << " ";
+    }
+    cout << endl;
+
+    // Greater to smaller
+    sort(v.begin(), v.end(), greater<int>());
     for (auto u : v)
     {
         cout << u << " ";
