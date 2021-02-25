@@ -20,7 +20,7 @@ void sortVector()
         cout << u << " ";
     }
     cout << endl;
-
+    // Greater to smaller
     sort(v.rbegin(), v.rend());
     for (auto u : v)
     {
