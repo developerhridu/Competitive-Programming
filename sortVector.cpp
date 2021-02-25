@@ -19,6 +19,13 @@ void sortVector()
     {
         cout << u << " ";
     }
+    cout << endl;
+
+    sort(v.rbegin(), v.rend());
+    for (auto u : v)
+    {
+        cout << u << " ";
+    }
 }
 int main()
 {
